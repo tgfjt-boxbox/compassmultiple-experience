@@ -3,3 +3,5 @@
 node_modules
 
 src/front/assets/**/*.css
+
+*.log

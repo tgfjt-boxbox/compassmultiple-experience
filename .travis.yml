@@ -3,4 +3,5 @@ node_js:
   - "0.8"
   - "0.10"
 install: npm install
-after_script: npm start
+before_install:
+  - npm i -g npm
