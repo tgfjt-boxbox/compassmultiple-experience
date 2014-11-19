@@ -5,5 +5,4 @@ node_js:
 install: npm install
 before_install:
   - "bundle install"
-before_install:
   - npm i -g npm
