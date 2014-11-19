@@ -1,0 +1,28 @@
+/************************************************************
+ * common style
+ ************************************************************/
+body, select, textarea, th, td, li, a, input {
+    font-family: 'メイリオ';
+}
+body, select, textarea {
+    color: #333333;
+    font-size: 12px;
+    line-height: 1.4;
+}
+body {
+    background-color: #FFFFFF;
+}
+
+/* img hover */
+a img:hover {
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+div, p, table, td, th, dl, dt, dd, ul, ol, li, a, span {
+    word-break: break-all;
+}
+
+sup {
+    vertical-align: top
+}
