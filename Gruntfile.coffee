@@ -39,117 +39,117 @@ module.exports = (grunt) ->
             }, {
               sassDir: '<%= path.scss %>/sample/2/bar2/'
               cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/3/all-hoge3/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/3/hoge3/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/3/fuga3/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/3/bar3/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/4/all-hoge4/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/4/hoge4/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/4/fuga4/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/4/bar4/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/5/all-hoge5/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/5/hoge5/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/5/fuga5/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/5/bar5/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/6/all-hoge6/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/6/hoge6/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/6/fuga6/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/6/bar6/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/7/all-hoge7/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/7/hoge7/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/7/fuga7/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/7/bar7/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/8/all-hoge8/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/8/hoge8/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/8/fuga8/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/8/bar8/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/9/all-hoge9/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/9/hoge9/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/9/fuga9/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/9/bar9/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/10/all-hoge10/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/10/hoge10/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/10/fuga10/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/10/bar10/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/11/all-hoge11/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/11/hoge11/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/11/fuga11/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample/11/bar11/'
-              cssDir: '<%= path.assets %>/sample/css/'
-            }, {
-              sassDir: '<%= path.scss %>/sample_123/hoge/'
-              cssDir: '<%= path.assets %>/sample_123/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/3/all-hoge3/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/3/hoge3/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/3/fuga3/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/3/bar3/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/4/all-hoge4/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/4/hoge4/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/4/fuga4/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/4/bar4/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/5/all-hoge5/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/5/hoge5/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/5/fuga5/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/5/bar5/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/6/all-hoge6/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/6/hoge6/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/6/fuga6/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/6/bar6/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/7/all-hoge7/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/7/hoge7/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/7/fuga7/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/7/bar7/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/8/all-hoge8/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/8/hoge8/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/8/fuga8/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/8/bar8/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/9/all-hoge9/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/9/hoge9/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/9/fuga9/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/9/bar9/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/10/all-hoge10/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/10/hoge10/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/10/fuga10/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/10/bar10/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/11/all-hoge11/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/11/hoge11/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/11/fuga11/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample/11/bar11/'
+            #   cssDir: '<%= path.assets %>/sample/css/'
+            # }, {
+            #   sassDir: '<%= path.scss %>/sample_123/hoge/'
+            #   cssDir: '<%= path.assets %>/sample_123/css/'
             }
           ]
           noLineComments: false
@@ -157,6 +157,6 @@ module.exports = (grunt) ->
           imagesDir: '<%= path.material %>/img'
           outputStyle: 'expanded'
           environment: 'production'
-          trace: true
+          force: true
 
   grunt.registerTask 'default', ['compassMultiple']

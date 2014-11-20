@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "bundle install",
-    "test": "grunt"
+    "test": "grunt",
+    "posttest": "node -v && npm -v && ruby -v && sass -v && compass -v"
   },
   "author": "tgfjt",
   "license": "MIT",
@@ -13,6 +14,6 @@
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-compass-multiple": "^0.2.1",
-    "jit-grunt": "0.3.2"
+    "jit-grunt": "^0.9.0"
   }
 }
