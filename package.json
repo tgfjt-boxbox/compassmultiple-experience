@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "bundle install",
     "test": "grunt"
   },
   "author": "tgfjt",

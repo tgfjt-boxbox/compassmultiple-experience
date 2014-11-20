@@ -1,6 +1,5 @@
-box: wercker/nodejs
+box: tgfjt/ubuntu12.04-ruby1.9.3-node0.10.32
 build:
   steps:
-    - wercker/bundle-install@0.9.1
     - npm-install
     - npm-test
