@@ -2,6 +2,6 @@
 .DS_Store
 node_modules
 
-src/front/assets/**/*.css
+src/front/assets/
 
 *.log

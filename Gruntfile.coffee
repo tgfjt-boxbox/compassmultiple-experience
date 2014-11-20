@@ -33,40 +33,40 @@ module.exports = (grunt) ->
         options:
           multiple: [
             {
-              sassDir: '<%= path.scss %>/sample/1/all-hoge/'
+              sassDir: '<%= path.scss %>/sample/1/all-hoge1/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/1/hoge/'
+              sassDir: '<%= path.scss %>/sample/1/hoge1/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/1/fuga/'
+              sassDir: '<%= path.scss %>/sample/1/fuga1/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/1/bar/'
+              sassDir: '<%= path.scss %>/sample/1/bar1/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/2/all-hoge/'
+              sassDir: '<%= path.scss %>/sample/2/all-hoge2/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/2/hoge/'
+              sassDir: '<%= path.scss %>/sample/2/hoge2/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/2/fuga/'
+              sassDir: '<%= path.scss %>/sample/2/fuga2/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/2/bar/'
+              sassDir: '<%= path.scss %>/sample/2/bar2/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/3/all-hoge/'
+              sassDir: '<%= path.scss %>/sample/3/all-hoge3/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/3/hoge/'
+              sassDir: '<%= path.scss %>/sample/3/hoge3/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/3/fuga/'
+              sassDir: '<%= path.scss %>/sample/3/fuga3/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
-              sassDir: '<%= path.scss %>/sample/3/bar/'
+              sassDir: '<%= path.scss %>/sample/3/bar3/'
               cssDir: '<%= path.assets %>/sample/css/'
             }, {
               sassDir: '<%= path.scss %>/sample_123/hoge/'
