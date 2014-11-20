@@ -1,0 +1,13 @@
+.helper {
+    @extend %cf;
+    div {
+        float: left;
+    }
+}
+@mixin icon-sprite ($_name, $_x, $_y, $_w, $_h) {
+  .ui-icon--#{$_name} {
+    @extend %sprite-icon;
+    @include inline-block;
+    @include sprite($_x, $_y, $_w, $_h);
+  }
+}
