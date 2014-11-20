@@ -6,6 +6,9 @@
 // compass css3機能だけをimport
 @import "compass/css3";
 
+@import "sample/sprite/hoge2-icon/*.png";
+$hoge2-icon: sprite-map("sample/sprite/hoge2-icon/*.png", $layout: smart);
+
 // ************************************************************
 //  @import
 // ************************************************************

@@ -22,11 +22,3 @@
 }
 
 %cf { min-height: 1px; _height: 1px; }
-
-%sprite-mark { background-image: url(#{$img-path}/sprite/mark.png); background-repeat: no-repeat; }
-
-%ir {
-    text-indent: -9999px;
-    overflow: hidden;
-    display: block;
-}

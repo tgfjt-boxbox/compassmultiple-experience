@@ -4,23 +4,6 @@ module.exports = (grunt) ->
     replace: 'grunt-text-replace'
     compassMultiple: 'grunt-compass-multiple'
 
-  imageminFiles = (cwd, dest) ->
-    files: [
-      expand: true
-      cwd: cwd
-      src: [
-        "*.png"
-        "sprite/*.png"
-        "!sprite/*-*--*.png"
-      ]
-      dest: dest
-    ]
-
-  setDirCompassMulti = (list) ->
-    list.map (dir) ->
-      sassDir: dir[0]
-      cssDir: dir[1]
-
   grunt.initConfig
     path:
       front: 'src/front'
@@ -171,9 +154,9 @@ module.exports = (grunt) ->
           ]
           noLineComments: false
           debugInfo: false
-          imagesDir: '<%= path.img_dev %>'
+          imagesDir: '<%= path.material %>/img'
           outputStyle: 'expanded'
           environment: 'production'
-          force: true
+          trace: true
 
   grunt.registerTask 'default', ['compassMultiple']
