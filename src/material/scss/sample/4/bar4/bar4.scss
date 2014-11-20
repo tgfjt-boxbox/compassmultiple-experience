@@ -6,6 +6,9 @@
 // compass css3機能だけをimport
 @import "compass/css3";
 
+@import "sample/sprite/bar4-icon/*.png";
+$bar4-icon: sprite-map("sample/sprite/bar4-icon/*.png", $layout: smart);
+
 // ************************************************************
 //  @import
 // ************************************************************
